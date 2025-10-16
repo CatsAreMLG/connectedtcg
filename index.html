@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connected TCG - Cards, Collectibles & Tournaments</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
+        @font-face {
+            font-family: 'Inter', sans-serif;
+            src: url(Inter-VariableFont_opsz,wght.ttf) format('ttf');
+        }
         body {
             font-family: 'Inter', sans-serif;
             background-color: #111111;
@@ -169,7 +170,7 @@
         <div class="container mx-auto px-6 py-8 text-center text-gray-500">
             <p>&copy; 2025 Connected TCG. All Rights Reserved.</p>
             <div class="flex justify-center space-x-6 mt-4">
-                <a href="#" class="hover:text-pink-400 transition-colors duration-300">Facebook</a>
+                <a href="https://www.facebook.com/ConnectedTCG" class="hover:text-pink-400 transition-colors duration-300">Facebook</a>
                 <a href="#" class="hover:text-blue-400 transition-colors duration-300">Instagram</a>
                 <a href="#" class="hover:text-gray-400 transition-colors duration-300">X / Twitter</a>
             </div>
